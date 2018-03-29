@@ -1,4 +1,18 @@
+table,tr,td{
+  border:2px solid #000;
+  border-collapse: collapse;
+  margin: =3px;
+}
+
+
+
+
+
+
+
 .main{
+  display:flex;
+  flex-wrap:wrap;
   width:100%;
   background-color: #999;
   /* flex box syntax */
@@ -6,18 +20,22 @@
   flex-direction: row;
 }
 .left{
-  width:25%;
-  background-color: #c45e45;
+text-align: justify;
+  background-color: #F08080;
   border:5px solid #000;
   margin:5px;
+  flex: 1;
+  colour: #000;
   padding:6px;
   /* backgrond_image:url(); */
 }
 .right{
-  width:75%;
-  background-color: #666;
+text-align: justify;
+  background-color: 3361ff;
   border:5px solid #000;
   margin:5px;
+  flex: 2;
+  colour: #000;
   padding: 6px;
 }
 #name{
@@ -42,24 +60,67 @@ media queries */
 @media only screen and (min-width:1024px) and (max-width:1280px){
   .main{
     width:100%;
-    background-color: #999;
+    background-color: #ff5733;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+
+    flex-direction: row;
   }
   .left{
-    width:25%;
+    width:100%;
     background-color: pink;
   }
   .right{
-    width:75%;
+    width:100%;
     background-color: blue;
   }
-  #name{
-    color:green;
+}
+@media only screen and (min-width: 1280px) and (max-width:1024px){
+  .main{
+    width:100%;
+    background-color: #ff5733;
+    display: flex;
+
+    flex-direction: row;
   }
-  .left img{
-  border-radius:50px;
-  border:5px solid #c454;
+  .left{
+    width:100%;
+    background-color: pink;
   }
+  .right{
+    width:100%;
+    background-color: blue;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width:480px){
+  .main{
+    width:100%;
+    background-color: #ff5733;
+    display: flex;
+
+    flex-direction: row;
+  }
+  .left{
+    width:100%;
+    background-color: pink;
+  }
+  .right{
+    width:100%;
+    background-color: blue;
+  }
+}
+.main{
+  width:100%;
+  background-color: #ff5733;
+  display: flex;
+
+  flex-direction: row;
+}
+.left{
+  width:100%;
+  background-color: pink;
+}
+.right{
+  width:100%;
+  background-color: blue;
+}
 }

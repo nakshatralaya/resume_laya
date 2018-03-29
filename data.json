@@ -1,0 +1,48 @@
+{
+  "basics":{
+    "photo":"laya.png",
+    "name":"nakshatralaya",
+    "email":"laya.vaddhi123@gmail.com",
+    "phone":"9966757321"
+  },
+  "education":[
+    {
+      "course":"B.tech(Computer science and engineering)",
+      "college":[
+        "Ravindra college of engineering for women",
+        "2015-2019",
+        "60%"
+      ]
+    },
+    {
+    "course":"intermediat",
+    "college":[
+      "narayana junior college",
+      "2013-2015",
+      "60%"
+  ]
+},
+ {
+   "course":"ssc",
+   "college":[
+     "keshavareddy school",
+  "2013",
+     "60%"
+   ]
+ }
+],
+"skills":[
+  {
+    "name":"operating system",
+    "value":"windows,Linux"
+  },
+  {
+    "name":"programing language",
+    "value":"c,c++,java"
+  },
+  {
+    "name":"web development",
+    "value":"HTML,python"
+  }
+]
+}
